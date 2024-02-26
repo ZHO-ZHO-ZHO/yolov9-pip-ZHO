@@ -13,7 +13,7 @@ import pandas as pd
 import seaborn as sn
 import torch
 from PIL import Image, ImageDraw, ImageFont
-from utils import TryExcept, threaded
+from yolov9.utils import TryExcept, threaded
 from utils.general import (
     CONFIG_DIR,
     FONT,

@@ -20,7 +20,7 @@ import torch.nn as nn
 from IPython.display import display
 from PIL import Image
 from torch.cuda import amp
-from utils import TryExcept
+from yolov9.utils import TryExcept
 from utils.dataloaders import exif_transpose, letterbox
 from utils.general import (
     LOGGER,
